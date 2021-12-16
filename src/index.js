@@ -40,7 +40,7 @@ function AddItems(items){
     for(let i =0; i < items.length; i++)
     {
         let template = `<div class="photo-card">
-        <a href="${items[i].largeImageURL}"><img src="${items[i].previewURL}" alt="" loading="lazy" /></a>
+        <a href="${items[i].largeImageURL}"><img src="${items[i].previewURL}" alt="" loading="lazy" width="220" /></a>
         <div class="info">
         <p class="info-item">
         <b>${items[i].likes} Likes</b>
